@@ -1,0 +1,43 @@
+.title-text{
+font: normal bold 50px/72px var(--roboto);
+}
+
+.btn.button {
+    padding: .6rem 2rem;
+    margin: 1rem 1rem;
+    border: 2px solid #aaf;
+    background-color:#5783db;
+    font-weight:  600;
+    box-shadow: var(--box- shadow);
+}
+
+.btn.button:hover{
+    border: orange;
+    background-color:#000;
+    color: white;
+    box-shadow: turquoise;
+    transition: background-color .3s ease-in;
+  
+}
+
+.banner-image{
+    padding:2rem;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 17px/25px var(--roboto);
+}
+
+ button:focus,
+button:active
+button:hover
+.btn:active,
+.btn.active{
+outline: 0px !important;
+box-shadow: none !important;
+} 
+
+.title-h1{
+    font: normal bold 39px/40px var(--roboto);
+}
